@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.box {
+    border: 5px solid black;
+    width: 200px;
+    height: 200px;
+}
+
+#box1 {
+    position: relative;
+    background-color: cornsilk;
+    /* now we see that box1 is overlapping box2 */
+    z-index: 19;
+}
+
+#box2 {
+    /* for z-index to work position should be not be static thats it*/
+    /* now as we see box1 is overlapping box2 so we will define z-index value for both the overlapping items*/
+    z-index: 0;
+    position: absolute;
+    top: 10px;
+    /* it will hide the box but still empty space shall exist */
+    /* visibility: hidden; */
+    /* display: none; */
+    /*it will hide the box but empty space will not exist*/
+    background-color: rgb(124, 240, 213);
+}
+
+#box3 {
+    background-color: rgb(151, 121, 240);
+}
+
+#box4 {
+    background-color: rgb(231, 143, 157);
+}

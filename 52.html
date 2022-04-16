@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrays & Objects in JS</title>
+</head>
+
+<body>
+    <div class="container">
+        This is simple HTML
+    </div>
+    <script>
+        let x = 'his'
+        let employee = {
+            name: 'Krish',
+            salary: '100000',
+            hobby: 'gym',
+        }
+
+        // you can access the attributes of the object
+        console.log(employee.hobby)
+        console.log(employee)
+
+        // Arrays
+        // let name = [1, 2, 3, 'harry', undefined]
+
+        // new keyword can be used to define any object
+        let name = new Array(12, 23, 8, 14, undefined, 'krish')
+
+        // console.log(name[1])
+
+        // sort an array
+        name = name.sort();
+        console.log(name)
+
+        //appending in the array
+        name.push('this is me');
+        console.log(name)
+
+        //the below line creates an empty array
+        arr1 = new Array(23)
+
+        arr1.push('This is me')
+        console.log(arr1)
+    </script>
+
+</body>
+
+</html>

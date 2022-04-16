@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    margin: 0px 0px;
+    font-family: 'Lobster', cursive;
+    padding: 0px 0px;
+}
+
+body {
+    background: url('images/workout.jpg');
+    color: white;
+    background-size: cover;
+}
+
+.left {
+    /* border: 5px solid brown; */
+    display: inline-block;
+    position: absolute;
+    top: 30px;
+    left: 50px;
+}
+
+.center {
+    /* border: 5px solid yellow; */
+    width: 50%;
+    margin: 30px auto;
+}
+
+.right {
+    display: inline-block;
+    /* border: 5px solid darkblue; */
+    position: absolute;
+    top: 30px;
+    right: 50px;
+}
+
+.header {
+    /* border: 3px solid rgb(19, 241, 19); */
+    height: 160px;
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: white;
+    padding: 48px;
+    font-size: 25px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: grey;
+    padding: 48px;
+    font-size: 25px;
+}
+
+.left img {
+    width: 150px;
+    height: 80px;
+    margin: 0px 40px;
+    filter: invert(100%);
+    display: inline-block;
+}
+
+.left div {
+    text-align: center;
+    font-size: 30px;
+}
+
+.btn {
+    margin: 0px 20px;
+    color: white;
+    background-color: black;
+    border-radius: 7px;
+    font-size: 18px;
+    padding: 2px 24px;
+    border: 2px solid rgb(122, 114, 114);
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(61, 59, 59);
+}
+
+.container {
+    border: 5px solid white;
+    margin: 60px 130px;
+    padding: 20px;
+    border-radius: 15px;
+    width: 40%;
+}
+
+.form_group input {
+    margin: 15px auto;
+    width: 70%;
+    display: block;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.container h1 {
+    width: 90%;
+    margin: 15px auto;
+    display: block;
+    text-align: center;
+}
+
+.container button {
+    margin: 15px auto;
+    width: 70%;
+    display: block;
+}

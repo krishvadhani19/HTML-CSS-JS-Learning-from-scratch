@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    color: white;
+}
+
+.container {
+    background-color: greenyellow;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    color: black;
+    background-color: aqua;
+    border: 3px solid red;
+    position: relative;
+    animation-name: krish_19;
+    animation-duration: 2s;
+    animation-iteration-count: 3;
+    /* animation-fill-mode: forwards; */
+    animation-fill-mode: alternate;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1s;
+    animation-direction: normal;
+    /* Animation Shorthand */
+    /* animation: animation-name animation-duration animation-timing-function animation-delay animation-iteration-count animation-fill-mode; */
+}
+
+@keyframes krish_19 {
+    0% {
+        top: 0px;
+        left: 0px;
+    }
+    25% {
+        top: 0px;
+        left: 250px;
+    }
+    50% {
+        top: 250px;
+        left: 250px;
+    }
+    75% {
+        top: 250px;
+        left: 0px;
+    }
+    100% {
+        top: 0px;
+        left: 0px;
+    }
+}
+
+@keyframes krish19 {
+    from {
+        width: 190px;
+    }
+    to {
+        width: 1000px;
+    }
+}

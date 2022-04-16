@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Oxygen', sans-serif;
+}
+
+img {
+    width: 50px;
+    height: 60px;
+    display: block;
+    margin: auto;
+}
+
+h2 {
+    margin: 0px;
+    text-align: center;
+}
+
+header {
+    margin: auto;
+    border: 5px solid black;
+    width: 1300px;
+}
+
+.box {
+    border: 5px solid red;
+    background-color: rgb(241, 202, 128);
+    width: 33%;
+    display: inline-block;
+    text-align: justify;
+    margin-top: 5px;
+    /* margin: auto; */
+}
+
+.box h3 {
+    text-align: center;
+}
+
+.container {
+    margin: auto;
+    border: 5px solid darkblue;
+    width: 1300px;
+}
+
+
+/* if you wish to have inline display of block elements inside the container then use 'inline-block'*/

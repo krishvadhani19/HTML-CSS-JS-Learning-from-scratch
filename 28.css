@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    border: 5px solid black;
+    border-radius: 10px;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    /* Flex container properties */
+    /* FLex items can be sequenced according to the below mentioned properties*/
+    /* flex-direction: row; */
+    flex-direction: column;
+    /* flex-direction: row-reverse;
+    flex-direction: column-reverse; */
+    /*To wrap the items so that a responsive websites are made*/
+    flex-wrap: wrap;
+    /* next item will be wrapped below the previous item*/
+    flex-wrap: wrap-reverse;
+    /* shorthand for the flex-direction & flex-wrap */
+    flex-flow: row wrap;
+    /* to organise the flex items */
+    /* center with padding and margin */
+    justify-content: center;
+    /* equally spaced items making optimum use of the width (the first and the last element will be at the extremes)*/
+    justify-content: space-between;
+    /* equally spaced items making optimum use of the width */
+    justify-content: space-evenly;
+    /* the left and right spaces of each box is exactly the same making optimum use of the width*/
+    justify-content: space-evenly;
+    /* vertically center */
+    align-items: center;
+    align-items: flex-start;
+    align-items: flex-end;
+    /* while making it responsive it will evenly wrap */
+    align-items: stretch;
+}
+
+.item {
+    background-color: tomato;
+    border: 3px solid black;
+    margin: 5px;
+    padding: 5px;
+    width: 200px;
+    height: 200px;
+}
+
+#item-1 {
+    /* Flex properties for flex items */
+    /* Items will be arranged in ascending order wrt to the order value of flex items */
+    order: 2;
+    /* the ratio in which the items will expand is 2:3:4 while width is increasing*/
+    /* flex-grow: 2; */
+    /* the ratio in which the items will shrink is 2:3:4 while width is decreasing */
+    /* flex-shrink: 2; */
+}
+
+#item-2 {
+    /* order: 10;
+    flex-grow: 3;
+    flex-shrink: 3; */
+    /* when flex-direction is row then flex-basis is width */
+    /* when flex-direction is column then flex-basis is height */
+    flex-basis: 400px;
+}
+
+#item-3 {
+    /* order: 1;
+    flex-grow: 4;
+    flex-shrink: 4; */
+    /* flex shorthand */
+    /* flex: 2 2 100px; */
+    /* align-self */
+    align-self: flex-start;
+    align-self: flex-end;
+    align-self: center;
+}

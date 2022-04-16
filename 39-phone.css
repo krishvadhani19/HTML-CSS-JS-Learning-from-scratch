@@ -1,0 +1,160 @@
+/* Navigation Section */
+
+#navbar {
+    flex-direction: column;
+}
+
+#navbar img {
+    height: 60px;
+    /* padding: 10px 10px; */
+    margin: 10px 50px;
+}
+
+#navbar ul li a:hover {
+    text-decoration: none;
+    padding: 0px 0px;
+    margin: 0px 10px;
+    font-size: 0.9rem;
+    color: black;
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    padding: 0px 0px;
+    margin: 0px 10px;
+    font-size: 0.9rem;
+    color: whitesmoke;
+    border-radius: 5px;
+}
+
+#navbar ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+/* Home Section */
+
+.container {
+    color: black;
+    height: 300px;
+}
+
+.container::before {
+    height: 460px;
+}
+
+.home-item {
+    margin: 0px;
+    /* padding: 10px 10px; */
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.container h1 {
+    padding: 0px 20px;
+    margin: 0px 0px;
+}
+
+
+/* Service Section */
+
+.service-flex-container {
+    flex-direction: column;
+}
+
+
+/* Client Section */
+
+.client-container {
+    overflow: hidden;
+}
+
+.client-container .fab,
+.client-container img {
+    height: 80px;
+    font-size: 3rem;
+    margin: 10px 20px;
+}
+
+.client-container::before {
+    height: 22%;
+}
+
+
+/* Contact Section */
+
+.contact-subcontainer input,
+.contact-subcontainer textarea {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 10px;
+}
+
+.contact-container form {
+    width: 90%;
+}
+
+.contact-subcontainer label {
+    font-size: 1rem;
+}
+
+.contact-container::before {
+    content: "";
+    background: url('images/background/contact1.jpg') no-repeat center center/cover;
+    z-index: -2;
+    height: 55%;
+    width: 100%;
+    left: 0px;
+    position: absolute;
+    opacity: 0.8;
+}
+
+
+/* footer */
+
+footer h4 {
+    font-size: 0.7rem;
+}
+
+
+/* Extras */
+
+.btn {
+    padding: 0px;
+    margin: 0px;
+    font-size: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #f30000;
+    width: 300px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.h-css {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.btn:hover {
+    padding: 0px;
+    margin: 0px;
+    font-size: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #f5a7a7;
+    width: 300px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}

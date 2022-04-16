@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    /* margin: 0px;
+    padding: 0px; */
+}
+
+h1 {
+    background-color: red;
+    color: black;
+    font-weight: bold;
+}
+
+
+/* p inside li ;li inside div; 
+div li p {
+    background-color: blueviolet;
+    font-weight: bold;
+    margin: 10px;
+} */
+
+
+/* only para which is directly inside div 
+div>p {
+    background-color: blueviolet;
+    font-weight: bold;
+    margin: 10px;
+} */
+
+
+/* para just after div(we can say sibling of div) 
+div>p {
+    background-color: blueviolet;
+    font-weight: bold;
+    margin: 10px;
+} */

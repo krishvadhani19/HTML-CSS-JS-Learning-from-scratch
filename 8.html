@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms & Input Tags</title>
+</head>
+
+<body>
+    <h2>This is HTML forms tutorial</h2>
+    <form action="backend.php">
+
+        <!-- Name -->
+        <!-- Label tag-->
+        <label for="name">Name</label>
+        <!-- div tag bydefault will be on a new line -->
+        <div>
+            <input type="text" name="my_name" id="name">
+        </div>
+
+        <br>
+
+        <!-- Role: -->
+        <div>
+            Role: <input type="text" name="my_role">
+        </div>
+
+        <br>
+
+        <!-- Email -->
+        <div>
+            <!-- name is used to identify it in backend -->
+            Email: <input type="email" name="my_email">
+        </div>
+
+        <br>
+
+        <!-- Date -->
+        <div>
+            Date: <input type="date" name="my_date">
+        </div>
+
+        <br>
+
+        <!-- Number -->
+        <div>
+            Number: <input type="number" name="my_number" id="">
+        </div>
+
+        <br>
+
+        <!-- Checkbox -->
+        <div>
+            <!-- to keep the checkbox checked -->
+            Is your weight greater than 85kg? <input type="checkbox" name="my_checkbox" checked>
+        </div>
+
+        <br>
+
+        <!-- Radio -->
+        <div>
+            Male: <input type="radio" name="my_gender"> Female: <input type="radio" name="my_gender"> Others: <input
+                type="radio" name="my_gender">
+        </div>
+
+        <br>
+
+        <!-- Textarea -->
+        <div>
+            Write about yourself: <br><textarea name="my_text" cols="50" rows="10"></textarea>
+        </div>
+
+        <br>
+
+        <!-- Car -->
+        <!-- select -->
+        <div>
+            <label for="car">Car: </label>
+            <select name="my_car" id="car">
+                <option value="car1">Indica</option>
+                <option value="car2">BMW</option>
+                <option value="car3">Audi</option>
+                <option value="car4" selected>Jaguar</option>
+            </select>
+        </div>
+
+        <br>
+
+        <!-- Submit -->
+        <div>
+            <input type="submit" value="Submit Now">
+            <input type="reset" value="Clear All">
+        </div>
+
+    </form>
+</body>
+
+</html>

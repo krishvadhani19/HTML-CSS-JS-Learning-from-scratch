@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=in, initial-scale=1.0">
+    <title>String Functions in JS</title>
+</head>
+
+<body>
+
+    <script>
+        var str = 'This is a string is a very good'
+        console.log(str)
+
+        //First occurence of substring
+        var position = str.indexOf('is')
+        console.log(position)
+
+        //Last occurence of substring
+        var position = str.lastIndexOf('is')
+        console.log(position)
+
+        // String Slicing
+        // var substr = str.slice(1, 7)
+        var substr = str.substr(1, 7)
+        var substr1 = str.substring(1, 7)
+        console.log(substr)
+        console.log(substr1)
+
+        // String Replacing
+        console.log(str)
+        console.log(str.replace('is', 'kiss'))
+
+        //string commands
+        console.log(str.toUpperCase())
+        console.log(str.toLocaleLowerCase())
+        var new_str = str.concat(' heyy babe')
+        console.log(new_str)
+
+        //str with whitespaces
+        var str_space = '            hello               everyone               '
+        console.log(str_space)
+
+        // extra spaced from start and end will be trimmed
+        console.log(str_space.trim()) 
+
+        // char at a particular index
+        var char1 = str.charAt(3)
+
+        // will return the ascii value 
+        var char2 = str.charCodeAt(3)
+        console.log(char2)
+
+        console.log(str[3])
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+.redhead{
+    color:red;
+    background-color: orange;
+}
+
+.red_head{
+    color: purple;
+    background-color: hotpink;
+}
+
+.bg_blue{
+    background-color: cornsilk;
+}
+
+p{
+    border: 5px solid red;
+    border-radius: 6px;
+}
+
+footer,span{
+    border: 3px solid black;
+    border-radius: 6px;
+    border-color: darkblue;
+}
+

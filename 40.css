@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    /* grid-template-columns: 400px 200px 100px; */
+    /* grid-template-columns: 1fr 4fr 2fr; */
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 2rem;
+}
+
+.item {
+    /* width: 100px; */
+    height: 100px;
+    border: 5px solid red;
+    margin: 10px;
+}

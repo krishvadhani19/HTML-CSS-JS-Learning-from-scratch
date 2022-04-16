@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strings in JS</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <div id="item">
+
+        </div>
+        <h1>Lorem ipsum dolor sit amet.</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi quas dolore dicta ullam, fugit corrupti, beatae possimus eius itaque totam vero tempore magni alias earum minus temporibus molestias dolorum commodi voluptatem sapiente! Perspiciatis
+            cumque quasi, enim, cum omnis repellat commodi minus vero voluptate ipsa suscipit id doloremque! Optio, quibusdam deleniti.</p>
+    </div>
+
+    <script>
+
+        var string = 'thi"s';
+        console.log(string);
+        var name = 'krish';
+        var surname = 'vadhani';
+
+        // Similar to f-string
+        var temp = `${name} is  a 'nice' person and ${surname}`;
+        console.log(temp);
+
+        // string concatenation
+        console.log(string + name + surname );
+
+        // length of string
+        var len = name.length;
+        console.log(len);
+
+        // escape sequence characters
+        console.log('Heloo \\n World \t krish \b');
+
+        // using constructor
+        var y = new String('this');
+        var yy = 'thsi';
+        console.log(y);
+        console.log(yy);
+
+        // 
+        document.getElementById('item').innerHTML = '<h2>this is krish vadhani</h2>'
+    </script>
+
+</body>
+
+</html>

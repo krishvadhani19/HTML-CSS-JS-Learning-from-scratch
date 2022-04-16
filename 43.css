@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    grid-gap: 1rem;
+    /* grid-template-columns: 200px 200px 200px; */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    justify-content: center;
+}
+
+.box {
+    border: 5px solid red;
+    padding: 20px;
+}

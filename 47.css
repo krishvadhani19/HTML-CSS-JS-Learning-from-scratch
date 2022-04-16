@@ -1,0 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    border: 5px solid red;
+}

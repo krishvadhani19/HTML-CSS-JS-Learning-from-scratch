@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Oxygen', sans-serif;
+}
+
+.box {
+    border: 5px solid darkblue;
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    display: inline-block;
+}
+
+#box3 {
+    /* Absolute: top & left are considered from the main container */
+    /* position: absolute; */
+    /* shifting relatively to its previous position */
+    /* position: relative; */
+    /* position will be with respect to the container */
+    /* although you scroll the position remains fixed */
+    /* position: fixed; */
+    /*default*/
+    /* position: static; */
+    /* position sticky whenever you scroll down the top will come to consideration */
+    /* whenever you scroll right left comes to consideration */
+    position: sticky;
+    top: 100px;
+    left: 100px;
+}
+
+.container {
+    border: 5px solid black;
+    height: 4000px;
+    width: 3000px;
+    background-color: antiquewhite;
+}

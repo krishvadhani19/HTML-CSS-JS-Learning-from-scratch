@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>If -else & switch case in JS</title>
+</head>
+
+<body>
+    <div>
+        <ul>
+            <li>this is item-1</li>
+            <li>this is item-2</li>
+            <li>this is item-3</li>
+            <li>this is item-4</li>
+            <li>this is item-5</li>
+            <li>this is item-6</li>
+            <li>this is item-7</li>
+        </ul>
+    </div>
+    <script>
+        var str1 = 'this is a string';
+        console.log(str1)
+
+        // 'let' keyword allows you to declare keyword locally in the block in which it is declared
+        // whereas 'var' will declare globally always
+        let a = 'x'
+        console.log(a)
+
+        {
+            let a = 'xm'
+            console.log(a)
+        }
+        console.log(a)
+
+        const x = 'this cannot be changed'
+        console.log(x)
+
+        // 'const' keyword is used so that the value of variable doesnt change
+        // x = 'hey there'
+
+        //If-else
+        let age = 19
+        if (age > 20) {
+
+            console.log('You can drink alcohol')
+
+        } else if (age == 19) {
+
+            console.log('You can drink but in limit')
+
+        } else {
+
+            console.log('You cannot drink alcohol')
+
+        }
+        const cups = 45;
+        switch (cups) {
+            case 5:
+                console.log('the value of cups is 5')
+                break;
+            case 45:
+                console.log('the value of cups is 45')
+                break;
+            case 4:
+                console.log('the value of cups is 4')
+                break;
+            case 11:
+                console.log('the value of cups is 11')
+                break;
+
+            default:
+                console.log('The value of cups did not match')
+                break;
+        }
+    </script>
+
+</body>
+
+</html>
+
+</html>

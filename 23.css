@@ -1,0 +1,45 @@
+* {
+    font-family: 'Oxygen', sans-serif;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: rgb(245, 141, 13);
+    border-radius: 10px;
+    border: 5px solid blue;
+}
+
+.navbar li {
+    float: left;
+    list-style: none;
+    margin: 10px;
+}
+
+.navbar ul {
+    overflow: auto;
+}
+
+.navbar ul a{
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.navbar ul a:hover{
+    color: black;
+    cursor: pointer;
+}
+
+.search{
+    padding: 10px 100px;
+    margin: 0px 100px;
+    float: right;
+}
+
+.navbar input{
+    border: 5px solid blue;
+    border-radius: 5px;
+    padding: 5px 50px;
+    width: 600px;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Object in JS</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>this is math object tutorial</h1>
+    </div>
+</body>
+<script>
+    // Printing Mth Object
+    let m = Math;
+    console.log(m);
+
+    // Printing the contants from Mth Object
+    console.log('The value of Math.e: ', m.E)
+    console.log('The value of Math.PI: ', m.PI)
+    console.log('The value of Math.LN2: ', m.LN2)
+    console.log('The value of Math.SQRT2: ', m.SQRT2)
+    console.log('The value of Math.LOG10E: ', m.LOG10E)
+
+    //Printing functions from Math Object
+    let a = 3763.76237266;
+    let b = 89;
+
+    console.log('the value of a and b is : ', a, b);
+    console.log('the value of a and b is : ', m.round(a), b);
+    console.log('the power function: ', m.pow(3, 2));
+    console.log('the power function: ', m.sqrt(36));
+
+    // Ceil & Floor
+    console.log('the power function: ', m.floor(36.8));
+    console.log('the power function: ', m.ceil(36.8));
+
+    // Absolute function
+    console.log('Absolute value of 5.66 is ', m.abs(5.66));
+    console.log('Absolute value of -5.66 is ', m.abs(-5.66));
+
+    // Trignometric functions
+    console.log('the value of sin(pi)', m.sin(m.PI / 2))
+    console.log('the value of sin(pi)', m.cos(m.PI)) //almost tending to zero
+
+    //Min & Max Functions
+    console.log('the min value of 4,5,6 is: ', m.min(4, 5, 6))
+    console.log('the min value of 4,5,6 is: ', m.max(4, 5, 6))
+
+    // Generating a random number
+    let r = m.random()
+
+    // generating a random number between 0 & 1
+    console.log('the random number is ', r)
+
+    // genrating random value between a and a+(b-a)*random function
+    let a1 = 1
+    let b1 = 100
+    let r1 = a1 + ((b1 - a1) * m.random());
+    console.log('the random number is ', r1)
+</script>
+
+</html>

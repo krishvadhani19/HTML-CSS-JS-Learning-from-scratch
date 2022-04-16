@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Working with Json in JS</title>
+</head>
+
+<body>
+
+</body>
+<script>
+    let my_json = {
+        name: 'Harry',
+        channel: 'K19',
+        friend: 'Krish Vadhani',
+        food: 'bhindi'
+    }
+
+    console.log(my_json)
+
+    let my_json_str = JSON.stringify(my_json);
+    console.log(my_json_str)
+
+    my_json_str = my_json_str.replace('bhindi', 'tindi');
+    console.log(my_json_str);
+
+    // to convert the json string into json file
+
+    my_json_new = JSON.parse(my_json_str)
+    console.log(my_json_new)
+</script>
+
+</html>

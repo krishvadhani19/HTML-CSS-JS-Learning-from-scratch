@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    --primary-color: orange;
+    --secondary-color: pink;
+    --maxw: 700px;
+}
+
+.container {
+    max-width: var(--maxw);
+    margin: auto;
+    background-color: brown;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    border: 5px solid white;
+    margin: 10px;
+    /* this is a local variable */
+    /* --box-color: orange; */
+    background-color: var(--box-color);
+    box-shadow: 3px 6px var(--secondary-color);
+}
+
+body {
+    color: white;
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+    /* --box-color: orange; */
+}
+
+
+/* no need to root define in *tag */
+
+:root {
+    --box-color: orange;
+}
+
+
+/* block elements dont have width defined if we define then we make them inline and then we have to set 'margin:auto' */

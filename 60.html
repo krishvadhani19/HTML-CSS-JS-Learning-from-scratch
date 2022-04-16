@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrow Function</title>
+</head>
+<style>
+
+</style>
+
+<body>
+    <div class="container">
+
+    </div>
+
+</body>
+<script>
+    // function greet() {
+    //     console.log('Hello World!')
+    // }
+
+    // write a function inside set function
+    // setInterval(greet = () => {
+    //     console.log('Hello !')
+    // }, 3000);
+    // greet()
+
+    // better way to write a function
+    // let sum1 = (a, b) => a + b;
+
+    // Another way of writing if the function doen not have return
+    // let greet = () => console.log('Hello World!');
+    // greet()
+    let obj1 = {
+        greetings: 'Hello World!',
+        names: ['Krish', 'vadhani'],
+        speak() {
+            this.names.forEach((student) => {
+                console.log(this.greetings + 'Hey there ' + student)
+            })
+        }
+    }
+
+    obj1.speak()
+</script>
+
+</html>
